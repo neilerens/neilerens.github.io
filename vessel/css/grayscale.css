@@ -53,8 +53,14 @@ a:focus {
   font-weight: 400;
 }
 #vessel-logo {
-	height: 100px;
+	height: 50px;
 	padding: 0px;
+}
+@media (min-width: 768px) {
+  #vessel-logo {
+		height: 100px;
+		padding: 0px;
+	}
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -67,7 +73,7 @@ a:focus {
   border-bottom-width: 2px;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: orange;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -82,7 +88,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: orange;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -108,6 +114,9 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+.navbar-custom.top-nav-collapse #vessel-logo {
+		height: 50px;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -123,9 +132,7 @@ a:focus {
     background: white;
     border-bottom: 1px solid orange;
 	}
-	.navbar-custom.top-nav-collapse #vessel-logo {
-		height: 50px;
-	}
+	
 	.navbar-custom.top-nav-collapse a {
 		color: rgb(38, 125, 183);
 	}
