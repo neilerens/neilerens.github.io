@@ -120,7 +120,7 @@ a:hover {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: #FF9600;
+  color: white;
   outline: none;
   background-color: transparent;
 }
@@ -137,6 +137,9 @@ a:hover {
 }
 .navbar-custom.top-nav-collapse #vessel-logo {
 		height: 50px;
+}
+.navbar-custom.top-nav-collapse .nav li a:hover{
+		color: orange;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -173,9 +176,20 @@ a:hover {
   background-size: cover;
   -o-background-size: cover;
 }
-
+#intro-text {
+    position: absolute;
+    bottom: 130px;
+    margin: auto;
+    width: 100%;
+}
+#intro-text p {
+    text-align: center;
+}
 #intro-center {
     text-align: center;
+		position: absolute;
+    bottom: 50px;
+    left: calc(50% - 35px);
 }
 .intro .intro-body {
   display: table-cell;
@@ -220,7 +234,7 @@ a:hover {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
+  color: orange;
   background: rgba(255, 255, 255, 0.1);
 }
 .btn-circle i.animated {
