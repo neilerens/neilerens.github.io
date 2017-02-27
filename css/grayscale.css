@@ -268,7 +268,7 @@ a:focus
 		padding-top: 50px;
 		padding-bottom: 50px;
 		margin: 5%;
-		background-color: ;
+		background-color: rgba(46, 123, 172, 0.09);
 }
 .content-section h2{
 	text-align: center;
