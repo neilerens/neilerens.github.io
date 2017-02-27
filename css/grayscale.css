@@ -11,7 +11,6 @@
     src: url("../fonts/Quadon/Quadon.otf");
 }
 
-
 body
 {
     width: 100%;
@@ -261,46 +260,6 @@ a:focus
 		}
 }
 
-#about, #events, #apply {
-	background-color:rgba(68, 132, 199, 0.11);
-}
-iframe {
-    display: block;
-    margin: 0 auto;
-}
-@-webkit-keyframes pulse{    
-    0 {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse{    
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-}
 
 .content-section
 {
@@ -308,6 +267,11 @@ iframe {
     padding-right: 15%;
 		padding-top: 50px;
 		padding-bottom: 50px;
+		margin: 5%;
+		background-color: ;
+}
+.content-section h2{
+	text-align: center;
 }
 
 @media (max-width:766px){
